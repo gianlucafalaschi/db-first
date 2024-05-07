@@ -5,26 +5,26 @@ dati riguardanti delle auto usate messe in vendita da un concessionario.
 cars
 
 
-id - int - PRIMARY_KEY - NOTNULL
+id - int - PRIMARY_KEY - NOTNULL -AUTO_INCREMENT - UNIQUE 
 
 brand  varchar(20) - NOTNULL
 
 model  varchar(20) - NOTNULL
 
-year TIMESTAMP - 
+year TIMESTAMP - NOTNULL
 
-mileage  MEDIUMINT
+mileage  MEDIUMINT - NULL
 
-fuel_type varchar(20)
+fuel_type varchar(20) - NOTNULL
 
-displacement  double(8,3)
+displacement  double(8,3) - NOTNULL
 
-power  SMALLINT
+power  SMALLINT - NULL
 
-warranty VARCHAR(255)
+warranty VARCHAR(255) - NULL - DEFAULT('Passa in concessionaria')
 
-price  decimal(8,2) 
+price  decimal(8,2) - NULL - DEFAULT('Passa in concessionaria') 
+ 
+fuel_consumption varchar(20) - NULL
 
-fuel_consumption varchar(20)
-
-description TEXT
+description TEXT - NULL
