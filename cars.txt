@@ -1,0 +1,30 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i 
+dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+cars
+
+
+id - int - PRIMARY_KEY - NOTNULL
+
+brand  varchar(20) - NOTNULL
+
+model  varchar(20) - NOTNULL
+
+year TIMESTAMP - 
+
+mileage  MEDIUMINT
+
+fuel_type varchar(20)
+
+displacement  double(8,3)
+
+power  SMALLINT
+
+warranty VARCHAR(255)
+
+price  decimal(8,2) 
+
+fuel_consumption varchar(20)
+
+description TEXT
