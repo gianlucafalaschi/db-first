@@ -23,6 +23,7 @@ power  SMALLINT - NULL
 
 warranty VARCHAR(255) - NULL - DEFAULT('Passa in concessionaria')
 
+(sbagliato: anche per il default il dato deve essere coerente, quindi un decimal )
 price  decimal(8,2) - NULL - DEFAULT('Passa in concessionaria') 
  
 fuel_consumption varchar(20) - NULL
