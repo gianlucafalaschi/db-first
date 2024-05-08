@@ -7,11 +7,11 @@ cars
 
 id - int - PRIMARY_KEY - NOTNULL -AUTO_INCREMENT - UNIQUE 
 
-brand  varchar(20) - NOTNULL
+brand  varchar(20) - NOTNULL - INDEX
 
-model  varchar(20) - NOTNULL
+model  varchar(20) - NOTNULL - INDEX
 
-year TIMESTAMP - NOTNULL
+year TIMESTAMP - NOTNULL - INDEX
 
 mileage  MEDIUMINT - NULL
 
